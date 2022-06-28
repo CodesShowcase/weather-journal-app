@@ -1,0 +1,152 @@
+body{
+    background: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(125px, auto);
+    /* grid-template-columns:  */
+    height: 950px;
+    background: #f23557;
+    color: #f0d43a;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.holder {
+
+}
+
+.holder.headline {
+  font-size: 32px;
+}
+
+.holder.zip {
+  margin-top: -120px;
+}
+
+.holder.zip div {
+  margin-bottom: 20px;
+}
+
+.holder.zip label {
+  display: inline;
+}
+
+.holder.zip input {
+  display: inline;
+}
+
+.holder.zip fieldset {
+  border-width: 0px;
+  font-size: 27px;
+  padding-inline-start: 0px;
+}
+
+.holder.zip fieldset > input{
+  height: 27px;
+  width: 100px;
+}
+
+.holder.feel {
+  margin-top: -140px;
+}
+
+.holder.entry {
+  margin-top: -50px;
+}
+
+.entry{
+    background: rgba(59, 74, 107, .4);
+}
+
+#entryHolder{
+
+}
+
+#date{
+
+}
+
+#temp{
+
+}
+
+#content{
+
+}
+
+.headline {
+  height: 100px;
+  grid-auto-rows: unset;
+}
+.title{
+
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    width: 400px;
+    height: 100px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:#22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: -40px;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+
+}
